@@ -1,3 +1,4 @@
+# importando os pacotes necessários
 from tkinter import *
 from pytube import YouTube
 
