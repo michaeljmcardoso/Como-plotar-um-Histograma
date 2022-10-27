@@ -1,3 +1,2 @@
-### Meusprojetos
-Pequenos projetos de aprendizagem e exercícios do curso Python
-
+# Histograma
+Neste pequeno exemplo, com algumas linhas de código, veremos como é simples plotar um histogram utilizando a biblioteca matplotlib.
