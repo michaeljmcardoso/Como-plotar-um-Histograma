@@ -1,12 +1,17 @@
-# importar os pacotes necessários
-from matplotlib import pyplot as plt
+# Importando a biblioteca necessária; Matplolib como plt
+import matplotlib.pyplot as plt
 
-# definindo os valores do eixo-y
-y = [13, 1, 2, 6, 4]
+# Criar um dataset com notas de alunos em uma lista
+# Definindo os valores do eixo-x
+notas = [10, 2, 8, 9, 5, 4, 7, 6, 8, 8, 4, 9, 9, 7, 9]
 
-# Função para plotar o histograma
-plt.hist(y)
+# Criar o histograma
+plt.hist(notas, bins=10, color='c') 
 
-# Função para mostrar o plot
+# Adicionar os rótulos(labels)
+plt.xlabel('Notas')
+plt.ylabel('Frequencia')
+plt.title('Exemplo de Histograma')
+
+# Exibir o histograma
 plt.show()
-
