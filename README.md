@@ -1,2 +1,2 @@
-# Plotando um Histograma
-Neste pequeno exemplo, com algumas linhas de código, veremos como é simples plotar um histogram utilizando a biblioteca matplotlib.
+# Quando usar e como plotar um Histograma
+Neste pequeno exemplo, veremos quando utilizatr e como plotar um histogram utilizando a biblioteca Matplotlib no Python.
